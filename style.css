@@ -1,0 +1,200 @@
+body{
+    font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+
+/*background image */
+.bgimage {
+    height:100vh;
+    background: url('images/adv.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+/*-----------------overlay-------------*/
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+/*-------------End Overlay----------*/
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: #542d22;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #542d22;
+    text-align: center;
+}
+
+/*Button -81 CSS */
+.button-81 {
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-81:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+  }
+}
+
+/*About Section*/
+.about{
+    padding-bottom: 2%;
+    -webkit-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+}
+
+.about-p{
+    background-color: #4545;
+    padding-bottom: 2%;
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+}
+
+.h5{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #4555;
+    -webkit-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+}
+.about-desc{
+    text-align: Justify;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 100%;
+    padding-top: 11%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 7%;
+    background-color: #4555;
+    -webkit-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+}
+
+.about-skill{
+    text-align: Justify;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 100%;
+    padding: 5%;
+    background-color: #4555;
+    -webkit-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.75);
+}
+.service{
+    margin-top: 2%;
+}
+
+.service-h5{
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.service-img{
+    display: block;
+    width: auto;
+    max-height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.service-desc{
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 450;
+}
+
+.card-img-top{
+    width: 100%;
+}
